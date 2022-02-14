@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(66, 66, 117);
+}
+
+/*main{
+    float: left;
+}*/
+
+main h2{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+main .redes{
+    display: inline;
+}
+
+.redes img{
+    height: 50px;
+    margin-left: 90px;
+}

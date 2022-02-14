@@ -4,26 +4,79 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 body{
     background-color: rgb(66, 66, 117);
+    width: 1280px;
+    overflow-y: hidden;
 }
 
-/*main{
+main{
+    width: 40%;
+    height: 560px;
     float: left;
-}*/
+}
 
 main h2{
-    margin-top: 100px;
-    margin-left: 200px;
+    text-align: center;
+    padding: 20px 2%;
 }
 
 main .redes{
-    display: inline;
+    text-align: center;
+    display: inline-block;
 }
 
 .redes img{
     height: 50px;
     margin-left: 90px;
+}
+
+form{
+    margin-left: 140px;
+    width: 46%;
+    padding: 30px;
+}
+
+form strong{
+    font-size: 20px;
+}
+
+form input{
+    background-color: rgb(58, 48, 95);
+    border-radius: 10px;
+    padding: 5px 2%;
+}
+
+form .botao{
+    background-color: rgb(57, 57, 156);
+    cursor: pointer;
+	width: 165px;
+	height: 44px;
+	font-size: 13px;
+	color: white;
+	margin-top:30px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 30px;
+}
+
+section{
+    float: right;
+    height: 800px;
+    background-color: black;
+    border-radius: 25%;
+}
+
+section img{
+    height: 80vh;
+    padding: 100px;
+}
+
+@media screen and (max-width: 768px){
+    section{
+        display: none;
+    }
 }

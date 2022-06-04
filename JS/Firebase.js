@@ -37,7 +37,7 @@
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href='home.html';
+    window.location.href='Pages/home.html';
 
   }).catch((error) => {
     // Handle Errors here.
@@ -63,7 +63,7 @@
       const credential = FacebookAuthProvider.credentialFromResult(result);
       const accessToken = credential.accessToken;
   
-      window.location.href='home.html';
+      window.location.href='Pages/home.html';
   
     })
     .catch((error) => {
@@ -90,7 +90,7 @@
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href='home.html';
+    window.location.href='Pages/home.html';
 
   }).catch((error) => {
     // Handle Errors here.

@@ -9,12 +9,10 @@
 }
 
 body {
-    background: #1B2029;
-    color: white;
     font-weight: 500;
     display: flex;
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 main {
@@ -26,27 +24,28 @@ main {
 }
 
 main h1 {
-    color: #8880FE;
-    font-size: 3rem;
-    margin-bottom: 3rem;
+    color: #3F3D56;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
-main.social-media {
+.social-media {
     display: flex;
     align-content: center;
 }
 
-main .social-media a {
-    text-decoration: none;
-}
-
-main .social-media img {
+.social-media img {
     width: 36px;
     margin-left: 3rem;
 }
 
-main .social-media a:first-child img {
+.social-media button{
+    cursor: pointer;
+}
+
+main .social-media button:first-child img {
     margin-left: 0;
 }
 
@@ -57,7 +56,7 @@ main .alternative {
 main .alternative span {
     font-size: 1.1rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.3);
     position: relative;
 }
 
@@ -68,7 +67,7 @@ main .alternative span::before, main .alternative span::after {
     width: 100px;
     bottom: 50%;
     right: 50px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 main .alternative span::after {
@@ -88,44 +87,45 @@ main form label {
 
 main form label span {
     font-size: 1.1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 main form input {
-    background: #161923;
+    background: #3F3D56;
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
-    color: rgba(166, 166, 166);
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     border: 1px solid #040B18;
     border-radius: 8px;
 }
 
-main form input[type="submit"] {
+main form button {
     cursor: pointer;
     width: 50%;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    padding: .7rem;
     border: none;
     border-radius: 32px;
-    background: #6C63FF;
+    background: #3F3D56;
     color: white;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
 
-main form input[type="submit"]:hover {
-    background: #5952d4;
+main form button:hover {
+    background: #68667b;
 }
 
 section.images {
-    width: 50vw;
+    width: 45vw;
+    height: 100vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding: 4rem;
 }
 
 section.images img {
@@ -160,6 +160,7 @@ section.images .circle {
     }
 
     main {
+        margin-top: 5rem;
         width: 100vw;
     }
 }

@@ -37,7 +37,7 @@
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href='Pages/home.html';
+    window.location.href='home.html';
 
   }).catch((error) => {
     // Handle Errors here.

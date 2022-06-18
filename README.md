@@ -1,5 +1,5 @@
 <h1 align="center">
-  Buscador de CEP
+  Sign-Up
 </h1>
 
 <p align="center">
@@ -30,12 +30,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- JavaScript
-- ReactJS
+- JavaScrip
+- Firebase
 
 ## 🚧 Projeto
 
-Construir um Buscador de CEP, via API.
+Construir uma Pág. de Login, que possui autenticação via Google(Firebase).
 
 
 ## :memo: Licença

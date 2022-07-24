@@ -4,15 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
-    <link rel="icon" type="image/png" href="Images/favicon.png">
-    <link href="CSS/home.css" rel="stylesheet" />
-    <script type="module" src="JS/Firebase.js" defer ></script>
+    <title>Kira Travel</title>
+    <link rel="icon" type="image/png" href="Images/favicon.ico">
+    <link href="CSS/home.css" rel="stylesheet">
+    <script src="JS/api.js" defer ></script>
 
 </head>
 <body>
 
-        <h1>Parabéns vc está logado!!</h1>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/Images/logo-plane.svg" />
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Packages</a></li>
+                    <li><a>Contact Us</a></li>
+                    <li><a>FAQ</a></li>
+                </ul>
+            </nav>
+
+            <div class="register">
+                <a href="#">Register</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="title">
+                <div>
+                    <h2>Making the world your playground.</h2>
+                    <p>Viajar é uma das melhores coisas que existem, se não a melhor.
+                        E quando somos mordidos por um mosquitinho chamado MUNDO, não tem jeito: 
+                        vivemos contando os dias pra próxima viagem chegar e não há antídoto que faça isso passar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-pesquisa">
+                <div class="container-pesquisa-2">
+                    <div class="pesquisa" id="locations">
+                        <label for="">Locations</label>
+                        <select name="Select" id="">
+                            <option value="valor1">Select your city</option>
+                        </select>
+                    </div>
+
+                    <div class="pesquisa" id="hotel">
+                        <label for="">Hotel Type</label>
+                        <select name="Select" id="">
+                            <option value="valor1">Choose hotel type</option>
+                        </select>
+                    </div>
+
+                    <div class="pesquisa" id="range">
+                        <label for="">Rent Range</label>
+                        <input type="date" />
+                    </div>
+                </div>
+
+                <div class="search">
+                    <button>
+                        <img src="Images/search.svg" alt="">
+                    </button>
+                </div>               
+            </div>
+        </main>
+    </div>
 
 </body>
 </html>

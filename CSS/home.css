@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,26 +8,131 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    font-weight: 500;
-    background-color: #3F3D56;
+body{
+    width: 100vw;
     height: 100vh;
-    width: 100%;
+    background-image: url(../Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container{
+    width: 100vw;
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all .6s;
+}
+
+.logo img:hover{
+    transform: scale(1.05);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a{
+    cursor: pointer;
+    color: #000;
+}
+
+.register{
+    transition: all .6s;
+}
+
+.register:hover{
+    transform: scale(1.1);
+}
+
+.register a{
+    background-color: rgb(0, 134, 134);
+    padding: 1.25rem;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    padding-top: 5rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-button {
-    cursor: pointer;
-    margin-top: 2rem;
-    padding: .7rem;
-    border: none;
-    border-radius: 32px;
-    background: #3F3D56;
-    color: white;
-    font-size: 1.1rem;
-    transition: all .3s ease-in-out;
+.title h2{
+    font-size: 26px;
 }
 
-button:hover {
-    background: #68667b;
+.title p{
+    padding-top: 1rem;
+    width: 45rem;
+    font-size: 12px;
+}
+
+.container-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container-pesquisa-2{
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 16px;
+    width: 66.666667%;
+    justify-content: space-around;
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+
+.pesquisa select{
+    margin-top: .5rem;
+    border: 1px solid #000;
+    border-radius: 16px;
+    padding: .25rem;
+}
+
+.search{
+    margin-left: 1rem;
+    transition: all .6s;
+}
+
+.search:hover{
+    transform: scale(1.1);
+}
+
+.search button{
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.search img{
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem;
 }

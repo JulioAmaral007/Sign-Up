@@ -8,10 +8,6 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="" src=".github/logo-plane.svg" width="10%">
-</p>
-
 <br>
 
 <h1>Desktop</h1>
